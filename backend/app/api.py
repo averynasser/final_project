@@ -10,7 +10,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import uvicorn
 
-from app.agents.chat_agent import ChatAgent
+from source.app.agents.chat_agent import ChatAgent
 
 app = FastAPI(title="Olist Chatbot API", version="1.0.0")
 
